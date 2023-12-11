@@ -32,4 +32,8 @@ Para executar o projeto e ver a detecção de objetos em ação, siga estes pass
    ```bash
     python infer_video.py [caminho_para_vídeo]
     
-Você pode baixar um vídeo de teste de restaurante a partir do seguinte link: [https://drive.google.com/file/d/1YkEiQyWL1E3QSmfdNmESihPA0JAwWDYV/view]Vídeo de Restaurante para Teste.
+Você pode baixar um vídeo de teste de restaurante a partir do seguinte link: [Vídeo de Restaurante para Teste](https://drive.google.com/file/d/1YkEiQyWL1E3QSmfdNmESihPA0JAwWDYV/view)
+
+## Referências
+- A implementação do modelo e o treinamento foram baseados em um [exemplo do Keras para YOLOv8](https://keras.io/examples/vision/yolov8/).
+- Os scripts infer_utils.py e infer_video.py foram adaptados de um [tutorial do YouTube](https://www.youtube.com/watch?v=vCT5rFrERaI&t=11s).
