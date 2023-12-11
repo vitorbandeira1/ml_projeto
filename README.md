@@ -16,19 +16,15 @@ Para configurar o ambiente de desenvolvimento necessário para este projeto, sig
 
 ## Estrutura do Projeto
 - rest_test.ipynb: Jupyter notebook contendo o código principal do projeto, incluindo a preparação dos dados, arquitetura do modelo, treinamento e inferência.
-- infer_utils.py: Script Python para executar o modelo treinado em imagens estáticas.
+- infer_utils.py: Script Python com funções de auxílio para teste em vídeos.
 - infer_video.py: Script Python para executar o modelo treinado em vídeos.
 
 ## Executando o Projeto
 Para executar o projeto e ver a detecção de objetos em ação, siga estes passos:
 
-1. Abra o Jupyter Notebook (rest_test.ipynb) e execute todas as células para treinar o modelo ou carregue um modelo pré-treinado.
-
-2. Para testar o modelo em imagens estáticas, use o script infer_utils.py:
-   ```bash
-    python infer_utils.py [caminho_para_imagem]
+1. Abra o Jupyter Notebook (rest_test.ipynb) e execute todas as células para treinar o modelo.
     
-3. Para testar o modelo em vídeos, use o script infer_video.py:
+2. Para testar o modelo em vídeos, use o script infer_video.py:
    ```bash
     python infer_video.py [caminho_para_vídeo]
     
